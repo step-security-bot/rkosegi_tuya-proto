@@ -29,3 +29,11 @@ repos:
       - id: go-mod-tidy
       - id: go-fmt
       - id: go-imports
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/golangci/golangci-lint
+    rev: v2.12.2
+    hooks:
+      - id: golangci-lint
